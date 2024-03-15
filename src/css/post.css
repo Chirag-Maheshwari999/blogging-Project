@@ -1,0 +1,163 @@
+/* .back-button{
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    background-color: #48A300;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-buttons{
+    display: flex;
+    justify-content: end;
+}
+
+.post-delete{
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(220, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post-edit{
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    background-color: #48A300;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.post-title-container{
+    overflow-wrap: break-word;
+}
+
+.post-title{
+    text-align: center;
+    font-size: 40px;
+    color: #483514;
+    background-color: #e5ab46;
+    padding: 10px;
+}
+
+.delete-error{
+    color: red;
+}
+
+.post-content p{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: blue;
+}  */
+
+/* Styling for Back Button */
+.back-button {
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #2ecc71;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #27ae60;
+}
+
+/* Styling for Post Buttons Container */
+.post-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Styling for Post Delete Button */
+.post-delete {
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #e74c3c;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.post-delete:hover {
+    background-color: #c0392b;
+}
+
+/* Styling for Post Edit Button */
+.post-edit {
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.post-edit:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for Post Title Container */
+.post-title-container {
+    overflow-wrap: break-word;
+}
+
+/* Styling for Post Title */
+.post-title {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    background-color: #f39c12;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling for Delete Error Message */
+.delete-error {
+    color: #e74c3c;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Styling for Post Content Paragraph */
+.post-content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.post-content p:hover {
+    color: #2980b9;
+}

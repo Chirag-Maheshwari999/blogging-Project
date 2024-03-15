@@ -1,0 +1,129 @@
+/* body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(234, 234, 234, 0.6);
+}
+
+.registration-container{
+    background-color: #fbfbfb;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.registration-heading{
+    color: #61481c;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.registration-input{
+    color: #35270f;
+    width: 250px;
+    margin: 10px 0;
+    padding: 8px ;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #858585;
+}
+
+.registration-button{
+    width: 270px;
+    margin: 10px 0;
+    padding: 8px ;
+    border: none;
+    background-color: #48A300;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.registration-login-button{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+/* Styling for Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(234, 234, 234, 0.6);
+
+   
+
+}
+
+/* Styling for Registration Container */
+.registration-container {
+    background-color: #ffffff;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+   
+}
+
+/* Styling for Registration Heading */
+.registration-heading {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for Registration Input */
+.registration-input {
+    color: #35270f;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #bdc3c7;
+    transition: border-color 0.3s ease;
+}
+
+.registration-input:focus {
+    border-color: #3498db;
+}
+
+/* Styling for Registration Button */
+.registration-button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    background-color: #27ae60;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.registration-button:hover {
+    background-color: #219653;
+}
+
+/* Styling for Registration Login Button */
+.registration-login-button {
+    color: #2980b9;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
